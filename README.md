@@ -1,5 +1,5 @@
-# [Super Resolution] SRCNN - tensorflow implementation
-tensorflow implementation of SRCNN
+# [Super Resolution] VDSR - tensorflow implementation
+tensorflow implementation of VDSR
 
 ## Prerequisites
  * python 3.x
@@ -28,7 +28,7 @@ parser.add_argument("--model_tag", type=str, default="default", help='Exp name t
 parser.add_argument("--checkpoint_dir", type=str, default='../__outputs/checkpoints/', help='Dir for checkpoints.')
 parser.add_argument("--summary_dir", type=str, default='../__outputs/summaries/', help='Dir for tensorboard logs.')
 parser.add_argument("--restore_model_file", type=str, default=None, help='file for restoration')
-#parser.add_argument("--restore_model_file", type=str, default='../__outputs/checkpoints/SRCNN_SRCNN_model_default_09_29_15_10_00/model.ckpt-170', help='file for resotration')
+#parser.add_argument("--restore_model_file", type=str, default='../__outputs/checkpoints/VDSR_VDSR_model_default_09_29_15_10_00/model.ckpt-170', help='file for resotration')
 
 """ model """
 parser.add_argument("--batch_size", type=int, default=64, help='Minibatch size(global)')
